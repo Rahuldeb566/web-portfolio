@@ -1,11 +1,12 @@
 body{
-    font-family: akronim;
+    font-family: sriracha;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
 .namehighlight{
-    color:rgb(212, 11, 219);
+    color:rgb(235, 118, 10);
 }
 
 .half{
@@ -17,4 +18,51 @@ h1{
 
 .half img{
     width: 100%;
+}
+
+.top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    margin-bottom: 110px;
+}
+
+a{
+        color: cornsilk;
+        font-weight: 800;
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightsalmon, tomato);    
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+}
+
+.half1{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+
+.half1 img{
+    width: 100%;
+}
+
+#a1{
+    color: cornsilk;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(15, 214, 114), rgb(25, 154, 214));    
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.dream{
+    float: left;
+    width: 8%;
+    margin-top: 200px;
 }
